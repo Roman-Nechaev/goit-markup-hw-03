@@ -85,13 +85,14 @@ ul {
 .header {
   border: none;
   border-bottom: 1px solid rgba(236, 236, 236, 1);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  padding-top: 25px;
-  padding-bottom: 25px;
+ 
 }
 
 .header-navigation {
@@ -150,14 +151,15 @@ ul {
 
 .banner {
   background-color: #2f303a;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .banner-container {
   display: flex;
   display: block;
 
-  padding-top: 200px;
-  padding-bottom: 200px;
+  
 
   /* outline: 1px solid rgb(133, 81, 81); */
 }
@@ -201,11 +203,13 @@ ul {
 /* ---------- Studio -------- */
 
 .studio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
 }
 
 .studio-container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+ 
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -246,10 +250,11 @@ ul {
 
 /* ---------- Work -------- */
 .work {
+  padding-bottom: 94px;
 }
 
 .work-container {
-  padding-bottom: 94px;
+  
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -280,8 +285,9 @@ ul {
 /* ---------- Team -------- */
 
 .team {
-  background-color: #f5f4fa;
   padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -300,7 +306,7 @@ ul {
   flex-wrap: wrap;
   margin-right: -30px;
   margin-top: -30px;
-  padding-bottom: 94px;
+  
 }
 
 .team-master {
@@ -340,13 +346,14 @@ ul {
 /* ---------- Footer -------- */
 
 .footer {
+  padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 .footer-container {
   display: flex;
   flex-direction: column;
-  padding-top: 60px;
-  padding-bottom: 60px;
+ 
 }
 
 .footer-logo {
@@ -425,9 +432,13 @@ ul {
 
 /* ------Gallery------ */
 
-.portfolio-container {
+.hiro-portfolio {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+
+.portfolio-container {
+ 
   /* outline: 1px solid rgb(133, 81, 81); */
 }
 
@@ -444,9 +455,8 @@ ul {
 }
 
 .btn {
-  padding-right: 22px;
-  padding-left: 22px;
-  height: 32px;
+  padding: 6px 22px;
+ 
   border-radius: 4px;
 }
 
